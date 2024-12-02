@@ -1,4 +1,4 @@
-package com.coderscampus.week18.hibernateexample.domain;
+package com.coderscampus.week18.TravisWinstonAssignment13.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

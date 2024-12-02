@@ -1,13 +1,13 @@
-package com.coderscampus.week18.hibernateexample.service;
+package com.coderscampus.week18.TravisWinstonAssignment13.service;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.coderscampus.week18.hibernateexample.domain.Account;
-import com.coderscampus.week18.hibernateexample.domain.User;
-import com.coderscampus.week18.hibernateexample.repository.AccountRepository;
+import com.coderscampus.week18.TravisWinstonAssignment13.domain.Account;
+import com.coderscampus.week18.TravisWinstonAssignment13.domain.User;
+import com.coderscampus.week18.TravisWinstonAssignment13.repository.AccountRepository;
 
 @Service
 public class AccountService {

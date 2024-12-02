@@ -1,4 +1,4 @@
-package com.coderscampus.week18.hibernateexample.service;
+package com.coderscampus.week18.TravisWinstonAssignment13.service;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -8,9 +8,9 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.coderscampus.week18.hibernateexample.domain.Address;
-import com.coderscampus.week18.hibernateexample.domain.User;
-import com.coderscampus.week18.hibernateexample.repository.UserRepository;
+import com.coderscampus.week18.TravisWinstonAssignment13.domain.Address;
+import com.coderscampus.week18.TravisWinstonAssignment13.domain.User;
+import com.coderscampus.week18.TravisWinstonAssignment13.repository.UserRepository;
 
 @Service
 public class UserService {

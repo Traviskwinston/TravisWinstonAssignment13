@@ -1,4 +1,4 @@
-package com.coderscampus.week18.hibernateexample.repository;
+package com.coderscampus.week18.TravisWinstonAssignment13.repository;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.coderscampus.week18.hibernateexample.domain.User;
+import com.coderscampus.week18.TravisWinstonAssignment13.domain.User;
 
 //Change T to Type (User) and ID to the PK type (Long). Import the related Table (User)
 @Repository //Should find this even without annotation

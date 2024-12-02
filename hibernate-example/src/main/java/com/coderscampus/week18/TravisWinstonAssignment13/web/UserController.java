@@ -1,4 +1,4 @@
-package com.coderscampus.week18.hibernateexample.web;
+package com.coderscampus.week18.TravisWinstonAssignment13.web;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.coderscampus.week18.hibernateexample.domain.Account;
-import com.coderscampus.week18.hibernateexample.domain.Address;
-import com.coderscampus.week18.hibernateexample.domain.User;
-import com.coderscampus.week18.hibernateexample.service.AccountService;
-import com.coderscampus.week18.hibernateexample.service.UserService;
+import com.coderscampus.week18.TravisWinstonAssignment13.domain.Account;
+import com.coderscampus.week18.TravisWinstonAssignment13.domain.Address;
+import com.coderscampus.week18.TravisWinstonAssignment13.domain.User;
+import com.coderscampus.week18.TravisWinstonAssignment13.service.AccountService;
+import com.coderscampus.week18.TravisWinstonAssignment13.service.UserService;
 
 @Controller
 public class UserController {
