@@ -75,7 +75,9 @@ public class UserController {
 
 	    // Update user fields
 	    existingUser.setUsername(user.getUsername());
-	    existingUser.setPassword(user.getPassword());
+	    if (!user.getPassword().isEmpty()) { //Only update the password if it is edited
+	    	existingUser.setPassword(user.getPassword());
+	    }
 	    existingUser.setName(user.getName());
 
 	    // Handle the Address object
